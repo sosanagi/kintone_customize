@@ -1,0 +1,85 @@
+/* 画面が小さい時用 */
+@media screen and (max-width: 1125px) { 
+
+    h1.ui.header {
+        font-size: 20px!important;
+    }
+    
+    h2 {
+        font-size: 25px!important;
+    }
+    
+    .ui.form{
+      font-size: 12px!important;
+    }
+    
+    .ui.form .field>label{
+      font-size: 13px!important;
+      padding-bottom: 1px!important;
+    }
+    
+    .ui.button{
+        font-size: 15px!important;
+    }
+    
+    .ui.button.teal.fb-confirm{
+      width: 100%!important;
+    }
+    
+    }
+    
+    /* ヘッダーの中央寄せ・文字間隔の調整 */
+    .ui.large.inverted.pointing.menu > *{
+        margin: 0 auto;
+    }
+    
+    h1.ui.header {
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    /* 見出しの装飾 */
+    h2 {
+        font-size: 30px;
+        background: linear-gradient(transparent 70%, #FED600 70%);
+    }
+    
+    /* 文字サイズ・間隔などの調整 */
+    .ui.form{
+      font-size: 13px;
+      letter-spacing: 2px;
+      padding-bottom: 1px;
+    }
+    
+    .ui.form .field>label{
+      font-size: 15px;
+      padding-bottom: 5px;
+    }
+    
+    /* ボタンの調整 */
+    .ui.button{
+      letter-spacing: 2px;
+      font-size: 18px;
+       margin: 0 auto;
+    }
+    
+    .ui.button.teal{
+      width: 50%;
+    }
+    
+    .ui.button.orange{
+      width: 40%;
+    }
+    
+    /* 箇条書きの調整 */
+    ul li, ol li {
+      line-height: 2!important;
+      padding-left: 0!important;
+    }
+    
+    /* 完了ページからMyページリンクを消す */
+    .my-page{
+      display: none!important;
+    }
